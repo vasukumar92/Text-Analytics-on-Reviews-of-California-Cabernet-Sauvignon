@@ -1,0 +1,2 @@
+# Text-Analytics-on-Reviews-of-California-Cabernet-Sauvignon
+9 distinct topic cluster were formed using 13136 text reviews of wine. Parsed (tokenization &amp; POS tagging) and Filtered (stop-word removal &amp; stemming) the text reviews to build the term/doc matrix. The matrix was weighted using TF_IDF. Applied latent dirichlet allocation (LDA) and SVD - latent semantic analysis to classify and analyze topic clusters. Further calculated region wise average price and points of wine. Last but not the least calculated contribution region wise contribution to each topic cluster
